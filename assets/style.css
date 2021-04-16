@@ -1,0 +1,43 @@
+h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+label {
+    font-size: 15px;
+    color: white;
+    background: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid steelblue;
+    cursor: pointer;
+}
+
+label:hover {
+    background: #3050E0;
+}
+
+label > input{
+    display:none;
+}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th {
+    background: lightsteelblue;
+    border-bottom: 1px solid black;
+}
+
+td {
+    background: powderblue;
+    border-bottom: 2px solid black;
+}

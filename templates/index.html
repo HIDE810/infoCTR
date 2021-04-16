@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>infoCTR</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body bgcolor="cornflowerblue">
+
+  <center>
+
+    <h1><a href="/">infoCTR</a></h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+
+      <label for="file_upload">
+        Select movable.sed
+        <input type="file" name="file" id="file_upload" accept=".sed" onchange="form.submit()">
+      </label>
+
+    </form>
+
+    <table cellpadding="8">
+
+      <tr><th width=340>Status</th></tr>
+      <tr><td align="center" height="30">{{.status}}</td></tr>
+
+      <tr><th>LFCS</th></tr>
+      <tr><td align="center" height="30">{{.lfcs}}</td></tr>
+
+      <tr><th>keyY</th></tr>
+      <tr><td align="center" height="30">{{.keyY}}</td></tr>
+
+      <tr><th>ID0</th></tr>
+      <tr><td align="center" height="30">{{.id0}}</td></tr>
+
+    </table>
+
+  </center>
+
+</body>
+
+</html>
